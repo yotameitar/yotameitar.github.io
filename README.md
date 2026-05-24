@@ -98,14 +98,14 @@
         this.drawDesertBackground();
         this.createFallbackTextures();
 
-        this.titleMain = this.add.text(20, 30, 'Help Yotam save the date', {
+        this.titleMain = this.add.text(20, 30, 'Help Yotam save the date\n(להציל את תמר)', {
           fontSize: isPortrait ? '10px' : '18px',
           color: '#1f2937',
           fontStyle: 'bold',
           fontFamily: "'Press Start 2P', monospace"
         });
 
-        this.titleSub = this.add.text(this.titleMain.x + this.titleMain.width + 6, isPortrait ? 32 : 34, '(להציל את תמר)', {
+        this.titleSub = this.add.text(this.titleMain.x + this.titleMain.width + 6, isPortrait ? 32 : 34, '', {
           fontSize: isPortrait ? '20px' : '20px',
           color: '#1f2937',
           fontStyle: 'bold',
